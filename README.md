@@ -6,10 +6,9 @@ The app will enable users to register an account using a username and password a
 <br>node.js - for the server
 <br>express.js - routing framework for routing request URLs to route handlers to views
 <br>orchestrate.io - database service for storing user information
-
 <p>
 <b>To build and run:</b>
-<br><br>Pre-requisites:
+<br>Pre-requisites:
 <br>To install app, you need to have npm installed
 <br><br>Steps:
 <br>1. Sync the source code
