@@ -1,0 +1,30 @@
+<!-- views/home.handlebars -->
+{{#if user}}
+  <div class="jumbotron">
+    <h1>Home</h1>
+    <p>View and upload documents</p>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Your documents</h3>
+    </div>
+      <!-- TODO: show user documents here-->
+    <div class="panel-body">
+      <!--<p>Username: {{user.username}}</p>-->
+      <!--<p>Avatar: <img src="{{user.avatar}}"/></p>-->
+    </div>
+  </div>
+
+{{else}}
+  <div class="jumbotron">
+    <h1>Nikhil's app</h1>
+    <p>Sign in!</p>
+    <p>
+      <a href="/signin" class="btn btn-primary btn-lg" role="button">
+        <span class="glyphicon glyphicon-user"></span> 
+        Sign in!
+      </a>
+    </p>
+  </div>
+
+{{/if}}
