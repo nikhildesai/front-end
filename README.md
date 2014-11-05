@@ -11,7 +11,6 @@ The app will enable users to register an account using a username and password a
 <b>To build and run:</b>
 <br><br>Pre-requisites:
 <br>To install app, you need to have npm installed
-
 <br><br>Steps:
 <br>1. Sync the source code
 <br>2. Go to the root folder and use 'npm install' to install node modules
